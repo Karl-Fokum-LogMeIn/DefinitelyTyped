@@ -28,7 +28,9 @@
         "prettier": "^1.17.1",
         "types-publisher": "github:Microsoft/types-publisher#production"
     },
-    "dependencies": {},
+    "dependencies": {
+        "typescript": "^2.9.2"
+    },
     "husky": {
         "hooks": {
             "pre-commit": "precise-commits"
